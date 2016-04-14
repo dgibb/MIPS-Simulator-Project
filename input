@@ -1,0 +1,107 @@
+addi $t1 $0 12
+addi $t2 $0 2
+addi $t3 $0 9
+addi $t4 $0 4
+addi $t5 $0 7
+sw $t6 0($t1)
+sw $t7 0($t2)
+mult $s1 $t1 $t2
+mult $s2 $t3 $t4
+sw $s0 0($t1)
+sw $s1 0($t2)
+lw $s2 0($t1)
+lw $s3 0($t2)
+beq $s0 $s2 -12
+beq $0 $0 12
+addi $t1 $0 12
+addi $t2 $0 2
+addi $t3 $0 9
+addi $t4 $0 4
+addi $t5 $0 7
+mult $s1 $t1 $t2
+mult $s2 $t3 $t4
+sw $s0 0($t1)
+sw $s1 0($t2)
+lw $s2 0($t1)
+lw $s3 0($t2)
+beq $s0 $s2 -12
+beq $0 $0 12
+addi $t1 $0 12
+addi $t2 $0 2
+addi $t3 $0 9
+addi $t4 $0 4
+addi $t5 $0 7
+mult $s1 $t1 $t2
+mult $s2 $t3 $t4
+sw $s0 0($t1)
+sw $s1 0($t2)
+lw $s2 0($t1)
+lw $s3 0($t2)
+beq $s0 $s2 -12
+beq $0 $0 12
+addi $t1 $0 12
+addi $t2 $0 2
+addi $t3 $0 9
+addi $t4 $0 4
+addi $t5 $0 7
+mult $s1 $t1 $t2
+mult $s2 $t3 $t4
+sw $s0 0($t1)
+sw $s1 0($t2)
+lw $s2 0($t1)
+lw $s3 0($t2)
+beq $s0 $s2 -12
+beq $0 $0 12
+addi $t1 $0 12
+addi $t2 $0 2
+addi $t3 $0 9
+addi $t4 $0 4
+addi $t5 $0 7
+mult $s1 $t1 $t2
+mult $s2 $t3 $t4
+sw $s0 0($t1)
+sw $s1 0($t2)
+lw $s2 0($t1)
+lw $s3 0($t2)
+beq $s0 $s2 -12
+beq $0 $0 12
+addi $t1 $0 12
+addi $t2 $0 2
+addi $t3 $0 9
+addi $t4 $0 4
+addi $t5 $0 7
+mult $s1 $t1 $t2
+mult $s2 $t3 $t4
+sw $s0 0($t1)
+sw $s1 0($t2)
+lw $s2 0($t1)
+lw $s3 0($t2)
+beq $s0 $s2 -12
+beq $0 $0 12
+addi $t1 $0 12
+addi $t2 $0 2
+addi $t3 $0 9
+addi $t4 $0 4
+addi $t5 $0 7
+mult $s1 $t1 $t2
+mult $s2 $t3 $t4
+sw $s0 0($t1)
+sw $s1 0($t2)
+lw $s2 0($t1)
+lw $s3 0($t2)
+beq $s0 $s2 -12
+beq $0 $0 12
+addi $t1 $0 12
+addi $t2 $0 2
+addi $t3 $0 9
+addi $t4 $0 4
+addi $t5 $0 7
+mult $s1 $t1 $t2
+mult $s2 $t3 $t4
+sw $s0 0($t1)
+sw $s1 0($t2)
+lw $s2 0($t1)
+lw $s3 0($t2)
+beq $s0 $s2 -12
+beq $0 $0 12
+addi $t1 $0 12
