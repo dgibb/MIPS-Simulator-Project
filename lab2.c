@@ -160,7 +160,7 @@ int main (int argc, char *argv[]){
 	
 		WB();
 		
-		printf("%s  ", "MEM_WB Latch:"" );
+		printf("%s  ", "MEM_WB Latch:" );
 		printf("%s  ",MEM_WB.opcode);
 		printf("%d  ",MEM_WB.destinationRegister);
 		printf("%d  ",MEM_WB.R1);
