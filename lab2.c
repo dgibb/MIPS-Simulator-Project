@@ -45,7 +45,7 @@ int programCounter;
 int RegisterValidBit[numberOfRegisters];
 int exhold,memhold; 
 int registers[numberOfRegisters];
-int cyclesForMultInstructions, cyclesForOtherInstructions, cyclesForMemoryAccess; 		//what do these do?
+int cyclesForMultInstructions, cyclesForOtherInstructions, cyclesForMemoryAccess;
 int simulationMode;		//mode flag, 1 for single-cycle, 0 for batch
 int testCounter;
 long simulationCycle;
